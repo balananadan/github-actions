@@ -3,16 +3,16 @@ services:
     build:
       context: .
     environment:
-      - TOKEN{$TOKEN}
+      - TOKEN: ${TOKEN}
 
    app2:
     build:
       context: .
     environment:
-      - TOKEN{$TOKEN}
+      - TOKEN: ${TOKEN}
 
    app3:
      build:
       context: .
      environment:
-      - TOKEN{$TOKEN}
+      - TOKEN: ${TOKEN}
