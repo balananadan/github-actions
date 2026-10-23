@@ -1,18 +1,18 @@
 services:
-   runner1:
-    build:
-      context: .
+  runner1:
+    build: .
     environment:
-      - TOKEN: ${TOKEN}
+      TOKEN: ${TOKEN}
+      RUNNER_NAME: runner1
 
-   app2:
-    build:
-      context: .
+  app2:
+    build: .
     environment:
-      - TOKEN: ${TOKEN}
+      TOKEN: ${TOKEN}
+      RUNNER_NAME: runner2
 
-   app3:
-     build:
-      context: .
-     environment:
-      - TOKEN: ${TOKEN}
+  app3:
+    build: .
+    environment:
+      TOKEN: ${TOKEN}
+      RUNNER_NAME: runner3
