@@ -7,4 +7,4 @@ RUN              curl -o actions-runner-linux-x64-2.337.0.tar.gz -L \
                 && tar xzf ./actions-runner-linux-x64-2.337.0.tar.gz && rm -f ./actions-runner-linux-x64-2.337.0.tar.gz
 
 copy             entrypoint.sh entrypoint.sh
-ENTRYPOINT      ["bash", "entypoint.sh"]
+ENTRYPOINT      ["bash", "entrypoint.sh"]
