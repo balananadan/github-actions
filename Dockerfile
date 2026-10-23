@@ -1,4 +1,4 @@
-FROM docker.io/rehat/ubi10:latest
+FROM docker.io/redhat/ubi10
 WORKDIR actions-runners
 RUN curl -o actions-runner-linux-x64-2.337.0.tar.gz -L \
     https://github.com/actions/runner/releases/download/v2.337.0/actions-runner-linux-x64-2.337.0.tar.gz  \
