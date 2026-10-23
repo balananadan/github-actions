@@ -1,4 +1,5 @@
 FROM            docker.io/redhat/ubi10
+RUN             dnf install libicu -y
 RUN             useradd runner
 USER            runner
 WORKDIR         /home/runner
